@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+namespace Signs{
 class Program
 {
     static List<User> users = new List<User>();
@@ -156,4 +156,6 @@ class Manager : Account
     public Manager(string username, string password) : base(username, password)
     {
     }
+}
+
 }
